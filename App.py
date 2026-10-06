@@ -69,7 +69,7 @@ if uploaded_file is not None:
 
     
 
-    if st.button("🔮 Predict"):
+    if st.button(" Predict"):
 
         prediction = model.predict(image_array)
 
